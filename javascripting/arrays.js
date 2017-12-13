@@ -1,7 +1,4 @@
-// This code is related to for loop conditions
-var total = 0;
-var limit = 10;
-for (var i=0; i<limit; i++) {
-  total += i;
-}
-console.log(total);
+// This code is related to declaring arrays
+var pizzaToppings = ['tomato sauce', 'cheese',
+  'pepperoni'];
+console.log(pizzaToppings);
