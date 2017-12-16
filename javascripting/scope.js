@@ -1,5 +1,5 @@
 // This code is related to scope and IIFE
-var a = 1, b = 2, c = 3;
+let a = 1, b = 2, c = 3;
   (function firstFunction(){
       var b = 5, c = 6;
 
@@ -11,6 +11,6 @@ var a = 1, b = 2, c = 3;
                   var a = 1, c = 8;
               })();
           })();
-          console.log("a: "+a+", b: "+b+", c: "+c);
+          console.log(`a: ${a}, b: ${b}, c: ${c}`);
       })();
   })();
