@@ -3,10 +3,11 @@ let url = require('url');
 
 // Function to parse the request date.
 function getParseTime(date) {
+  let dateObj = new Date(date);
   let resObj = {
-    hour: new Date(date).getHours(),
-    minute: new Date(date).getMinutes(),
-    second: new Date(date).getSeconds()
+    hour: dateObj.getHours(),
+    minute: dateObj.getMinutes(),
+    second: dateObj.getSeconds()
   };
   return resObj;
 }
