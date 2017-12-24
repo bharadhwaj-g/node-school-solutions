@@ -29,7 +29,7 @@ Please feel free to raise an issue if you found any issue or any suggestion.
 ## TODO
 - ~~learnyounode~~
 - ~~How to npm~~
-- Scope chains and closures
+- ~~Scope chains and closures~~
 - Stream-adventure
 - functional javascript
 - Expressworks
